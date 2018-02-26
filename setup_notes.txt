@@ -1,1 +1,24 @@
+
+
 ssh -i /c/Users/bmt/.ssh/aws-key.pem  ubuntu@ec2-54-190-59-140.us-west-2.compute.amazonaws.com
+
+
+git clone https://github.com/aspiringguru/flask_demo.git
+sudo apt-get update
+sudo apt install python-pip
+sudo pip install --upgrade pip
+
+
+from dir  /home/ubuntu/flask_demo/flaskr
+sudo pip install --editable .
+
+export FLASK_APP=flaskr
+export FLASK_DEBUG=true
+#flask run
+flask run --host=0.0.0.0
+
+
+should be using something like this to make public
+app.run(host='0.0.0.0')
+
+http://ec2-54-190-59-140.us-west-2.compute.amazonaws.com:5000/
