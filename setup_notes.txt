@@ -1,0 +1,1 @@
+ssh -i /c/Users/bmt/.ssh/aws-key.pem  ubuntu@ec2-54-190-59-140.us-west-2.compute.amazonaws.com
